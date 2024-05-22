@@ -53,7 +53,7 @@
 %----------------------------------------------------------------------------------------
 
 \RequirePackage[quiet]{fontspec}
-\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+\RequirePackage[math-style=TeX]{unicode-math}
 
 \newfontfamily\bodyfont{Roboto-Regular}[Path=fonts/]
 \newfontfamily\bodyfontit{Roboto-LightItalic}[Path=fonts/]
@@ -108,10 +108,10 @@
 \setlength{\TPHorizModule}{0.01\paperwidth}
 \setlength{\TPVertModule}{0.01\paperwidth}
 
-\newcommand{\lastupdated}{ 
+\newcommand{\lastupdated}{
   \begin{textblock}{10}(11.3, 0.05)
     \raggedleft
-    \fontsize{8pt}{10pt}\color{date}\thinfont 
+    \fontsize{8pt}{10pt}\color{date}\thinfont
     \lastupdatedtext{} \today
   \end{textblock}}
 
