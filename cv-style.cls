@@ -124,14 +124,7 @@
 \def\@sectioncolor#1#2#3{%
   {%
     \color{%
-      \ifcase\value{colorCounter}%
-        blue\or%
-        red\or%
-        orange\or%
-        green\or%
-        purple\or%
-        aquamarine\else%
-        headercolor\fi%
+        headercolor%
     } #1#2#3%
   }%
   \stepcounter{colorCounter}%
