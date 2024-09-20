@@ -195,7 +195,7 @@
 % Other tweaks %
 %----------------------------------------------------------------------------------------
 
-\RequirePackage[left=6.4cm,top=1cm,right=1cm,bottom=1cm,nohead,nofoot]{geometry}
+\RequirePackage[left=5.8cm,top=1cm,right=1cm,bottom=0.5cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
 \hypersetup{
     pdftitle=CV/Resume \textbar{} Tomás Miguez,
